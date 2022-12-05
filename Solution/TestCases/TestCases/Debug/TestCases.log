@@ -1,0 +1,15 @@
+﻿  test.cpp
+G:\Data_Assignment_3\Solution\Answer\19I-0538_C_A3.h(314,39): warning C4018: '<': signed/unsigned mismatch
+G:\Data_Assignment_3\Solution\Answer\19I-0538_C_A3.h(290): message : while compiling class template member function 'void Tree<std::string>::insert(Node<X> *,std::string,std::string)'
+          with
+          [
+              X=std::string
+          ]
+G:\Data_Assignment_3\Solution\Answer\19I-0538_C_A3.h(563): message : see reference to function template instantiation 'void Tree<std::string>::insert(Node<X> *,std::string,std::string)' being compiled
+          with
+          [
+              X=std::string
+          ]
+G:\Data_Assignment_3\Solution\Answer\19I-0538_C_A3.h(539): message : see reference to class template instantiation 'Tree<std::string>' being compiled
+G:\Data_Assignment_3\Solution\Answer\19I-0538_C_A3.h(251): warning C4715: 'dynamicClass<Node<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > *>::operator[]': not all control paths return a value
+  TestCases.vcxproj -> G:\Data_Assignment_3\Solution\TestCases\Debug\TestCases.exe
